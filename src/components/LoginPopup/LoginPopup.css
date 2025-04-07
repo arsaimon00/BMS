@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .role-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .role-switch button {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .role-switch .active {
+    background-color: #e1e5eb;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #1c1f27;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,88 @@
+.bakery-dashboard {
+    background-color: #f9fafb;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.dashboard-header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.order-section {
+    flex: 1;
+    min-width: 280px;
+}
+
+.order-section h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.order-card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.order-info h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.order-info p {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.order-info .meta {
+    display: block;
+    font-size: 13px;
+    color: #777;
+}
+
+.status-label {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.status-label.new {
+    background: #e0f3ff;
+    color: #005b96;
+}
+
+.status-label.in-progress {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-label.ready {
+    background: #d4edda;
+    color: #155724;
+}
+
+.empty-text {
+    font-size: 14px;
+    color: #999;
+    padding-left: 0.5rem;
+}
