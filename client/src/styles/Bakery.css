@@ -1,0 +1,115 @@
+/* ===== Bakery Dashboard Updated Styling ===== */
+
+.bakery-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  background-color: #fffef6;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bakery-heading {
+  font-size: 32px;
+  color: #8b4513;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.message {
+  color: #28a745;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.order-columns {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.order-column {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fffdfa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f5e9dc;
+  transition: transform 0.2s ease;
+}
+
+.order-column:hover {
+  transform: translateY(-4px);
+}
+
+.order-column h3 {
+  font-size: 20px;
+  color: #5a2a00;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0cdbf;
+  padding-bottom: 8px;
+}
+
+.action-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #b65b1d;
+}
+
+/* ===== Order Card Styling ===== */
+
+.order-card {
+  border: 1px solid #e6d3c2;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #fffaf3;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+}
+
+.order-card h4 {
+  font-size: 18px;
+  color: #4b2c20;
+  margin-bottom: 10px;
+}
+
+.order-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-card ul li {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.order-card ul li span {
+  font-weight: bold;
+  color: #5a2a00;
+}
