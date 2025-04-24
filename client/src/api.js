@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Set up the base URL for API calls using process.env.REACT_APP_API_URL
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://bakery-backend-lbuc.onrender.com/api',
 });
 
 // Add a request interceptor to include the token in headers if available
