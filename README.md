@@ -30,7 +30,7 @@ The platform includes:
 | **Backend**   | Node.js, Express.js                    |
 | **Database**  | MongoDB Atlas                          |
 | **Authentication** | JWT with hardcoded roles       |
-| **Deployment**| Vercel (Frontend), Render/AWS (Backend)|
+| **Deployment**| Vercel (Frontend), Render (Backend)    |
 
 ##  User Roles
 
@@ -76,7 +76,7 @@ The following schema defines the structure for managing users, products, and ord
 ##  Folder Structure
 
 ```
-bakery-management-system/
+BMS/
 ├── client/               # React frontend
 │   ├── public/
 │   ├── src/
